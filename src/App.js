@@ -4,6 +4,7 @@ import { Layout, Typography, Space } from 'antd'
 
 import { Navbar, Exchanges, Homepage, Cryptocurrencies, CryptoDetails, News } from './components'
 import './App.css'
+import 'antd/dist/antd.css'
 
 const App = () => {
     return (
@@ -39,9 +40,9 @@ const App = () => {
                         All rights reserved
                     </Typography.Title>
                     <Space>
-                        <Link to='./'>Home</Link>
-                        <Link to='./exchanges'>Exchanges</Link>
-                        <Link to='./news'>News</Link>
+                        <Link to='/'>Home</Link>
+                        <Link to='/exchanges'>Exchanges</Link>
+                        <Link to='/news'>News</Link>
                     </Space>
                 </div>
             </div>
